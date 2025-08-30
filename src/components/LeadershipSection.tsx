@@ -29,15 +29,17 @@ const LeadershipSection = () => {
             {/* Profile image */}
             <div className="relative">
               <div className="bg-gradient-to-br from-bv-cyan to-bv-light-blue p-1 rounded-3xl shadow-glow">
-                <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 h-96 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-32 h-32 bg-gradient-to-br from-bv-blue to-bv-cyan rounded-full mx-auto mb-4 flex items-center justify-center shadow-elegant">
-                      <span className="text-4xl font-bold text-white">BV</span>
-                    </div>
-                    <p className="text-white/80">Bo Vargas Profile Photo</p>
-                  </div>
+                <div className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-3xl overflow-hidden">
+                  <img 
+                    src="/lovable-uploads/f0b1427f-e786-40b0-bb41-3acab8a20b0f.png"
+                    alt="Bo Vargas, Founder and Managing Director of BV Innovation" 
+                    className="w-full h-96 object-cover object-center"
+                  />
                 </div>
               </div>
+              {/* Decorative elements */}
+              <div className="absolute -top-4 -right-4 w-8 h-8 bg-bv-cyan rounded-full opacity-80 animate-pulse"></div>
+              <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-bv-light-blue rounded-full opacity-60 animate-pulse delay-1000"></div>
             </div>
 
             {/* Profile content */}

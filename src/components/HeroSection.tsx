@@ -26,7 +26,18 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+      <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
+        {/* Large BV Innovation Logo */}
+        <div className="mb-12">
+          <div className="inline-flex items-center justify-center w-32 h-32 bg-gradient-to-br from-bv-blue to-bv-cyan rounded-3xl shadow-glow mb-6">
+            <div className="relative">
+              <div className="w-16 h-16 border-4 border-white rounded-xl transform rotate-12"></div>
+              <div className="absolute -top-2 -left-2 w-12 h-12 border-3 border-white/60 rounded-xl transform -rotate-12"></div>
+              <div className="absolute -bottom-2 -right-2 w-8 h-8 border-3 border-white/40 rounded-lg transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="text-2xl font-bold text-white/90 tracking-wide">BV INNOVATION</div>
+        </div>
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
           Imagine tomorrow.{" "}
           <span className="bg-gradient-to-r from-bv-cyan to-bv-light-blue bg-clip-text text-transparent">

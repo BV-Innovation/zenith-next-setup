@@ -5,11 +5,15 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-bv-blue to-bv-cyan rounded-lg flex items-center justify-center">
-                <div className="w-5 h-5 border-2 border-white rounded transform rotate-45"></div>
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-12 bg-gradient-to-br from-bv-blue to-bv-cyan rounded-xl flex items-center justify-center shadow-glow">
+                <div className="relative">
+                  <div className="w-6 h-6 border-2 border-white rounded transform rotate-45"></div>
+                  <div className="absolute -top-0.5 -left-0.5 w-4 h-4 border border-white/60 rounded transform -rotate-12"></div>
+                  <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 border border-white/40 rounded transform rotate-45"></div>
+                </div>
               </div>
-              <span className="text-xl font-bold text-white">BV INNOVATION</span>
+              <span className="text-2xl font-bold text-white tracking-wide">BV INNOVATION</span>
             </div>
             <p className="text-white/70">
               Redefining investment through visionary leadership and transformative innovation.
