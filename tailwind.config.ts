@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// BV Innovation brand colors
+				'bv-dark': 'hsl(var(--bv-dark))',
+				'bv-darker': 'hsl(var(--bv-darker))',
+				'bv-blue': 'hsl(var(--bv-blue))',
+				'bv-cyan': 'hsl(var(--bv-cyan))',
+				'bv-light-blue': 'hsl(var(--bv-light-blue))',
+				'corporate-dark': 'hsl(var(--corporate-dark))',
+				'corporate-darker': 'hsl(var(--corporate-darker))',
+				'corporate-light': 'hsl(var(--corporate-light))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +76,21 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-hero-overlay': 'var(--gradient-hero-overlay)',
+				'gradient-section': 'var(--gradient-section)',
+				'gradient-card': 'var(--gradient-card)',
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'soft': 'var(--shadow-soft)',
+				'glow': 'var(--shadow-glow)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)',
+				'fast': 'var(--transition-fast)',
 			},
 			keyframes: {
 				'accordion-down': {
