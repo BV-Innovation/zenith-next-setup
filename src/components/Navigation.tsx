@@ -26,9 +26,12 @@ const Navigation = () => {
             <a href="#leadership" className="text-white hover:text-bv-cyan transition-colors">
               Leadership
             </a>
-            <Button variant="outline" className="border-bv-blue text-bv-blue hover:bg-bv-blue hover:text-white">
+            <a 
+              href="mailto:investments@bvinnovation.com"
+              className="border-bv-blue text-bv-blue hover:bg-bv-blue hover:text-white px-6 py-2 rounded-xl transition-all duration-300 font-semibold"
+            >
               Contact
-            </Button>
+            </a>
           </div>
         </div>
       </div>

@@ -41,9 +41,12 @@ const Footer = () => {
             <h3 className="text-lg font-semibold text-white">Contact</h3>
             <div className="space-y-2">
               <p className="text-white/70">Ready to transform your vision into reality?</p>
-              <button className="px-6 py-3 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105">
+              <a 
+                href="mailto:investments@bvinnovation.com"
+                className="px-6 py-3 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 inline-block"
+              >
                 Get in Touch
-              </button>
+              </a>
             </div>
           </div>
         </div>

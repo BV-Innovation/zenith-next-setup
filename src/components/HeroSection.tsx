@@ -44,12 +44,18 @@ const HeroSection = () => {
           Redefining the landscape of investment through visionary leadership and transformative innovation.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="px-8 py-4 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-glow">
+          <a 
+            href="#mission"
+            className="px-8 py-4 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-glow inline-block text-center"
+          >
             Learn More
-          </button>
-          <button className="px-8 py-4 border-2 border-white/30 text-white hover:bg-white/10 font-semibold rounded-xl transition-all duration-300 backdrop-blur-sm">
+          </a>
+          <a 
+            href="mailto:investments@bvinnovation.com"
+            className="px-8 py-4 border-2 border-white/30 text-white hover:bg-white/10 font-semibold rounded-xl transition-all duration-300 backdrop-blur-sm inline-block text-center"
+          >
             Contact Us
-          </button>
+          </a>
         </div>
       </div>
 
