@@ -38,10 +38,7 @@ const HeroSection = () => {
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
-          Imagine tomorrow.{" "}
-          <span className="bg-gradient-to-r from-bv-cyan to-bv-light-blue bg-clip-text text-transparent">
-            BV INNOVATION.
-          </span>
+          Imagine tomorrow.
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
           Redefining the landscape of investment through visionary leadership and transformative innovation.
