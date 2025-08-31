@@ -13,7 +13,7 @@ const Footer = () => {
               />
             </div>
             <p className="text-white/70">
-              Redefining investment through visionary leadership and transformative innovation.
+              Constructing the foundations for a resilient global economy.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-white">Contact</h3>
             <div className="space-y-2">
-              <p className="text-white/70">Ready to transform your vision into reality?</p>
+              <p className="text-white/70">For Strategic Partnerships & Mandates.</p>
               <a 
                 href="mailto:investments@bvinnovation.com"
                 className="px-6 py-3 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 inline-block"
@@ -54,7 +54,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-white/10 text-center">
           <p className="text-white/60">
-            © 2024 BV Innovation. All rights reserved. | Cross Over Fund ran by the Vargas Family Office
+            © 2024 BV Innovation. All rights reserved.
           </p>
         </div>
       </div>

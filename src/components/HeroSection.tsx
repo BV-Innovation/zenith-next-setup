@@ -30,11 +30,11 @@ const HeroSection = () => {
         {/* Large BV Innovation Logo */}
         <div className="mb-12">
           <div className="inline-block">
-            <img 
+            {/* <img 
               src="/lovable-uploads/826e1c47-c372-45a8-98f3-e6a205af0d58.png" 
               alt="BV Innovation Logo" 
               className="h-32 w-auto mx-auto"
-            />
+            /> */}
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
