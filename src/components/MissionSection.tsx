@@ -17,9 +17,6 @@ const MissionSection = () => {
               Our mission is to mobilize capital, technology, and operational expertise to construct the critical infrastructure and financial instruments necessary for a more resilient and productive global economy.
             </p>
             
-            <div className="inline-block bg-corporate-darker px-6 py-3 rounded-xl">
-              <span className="text-bv-cyan font-semibold text-lg">BV INNOVATION</span>
-            </div>
           </div>
         </div>
       </div>

@@ -59,12 +59,17 @@ const LeadershipSection = () => {
                 </p>
 
                 {/* LinkedIn link */}
-                <div className="flex items-center space-x-3">
+                <a 
+                  href="https://www.linkedin.com/in/bovargas/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 hover:opacity-80 transition-opacity"
+                >
                   <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                     <Linkedin className="w-5 h-5 text-white" />
                   </div>
                   <span className="text-white/70">Connect on LinkedIn</span>
-                </div>
+                </a>
               </div>
             </div>
           </div>
