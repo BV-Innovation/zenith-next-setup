@@ -5,13 +5,12 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-corporate-darker/95 backdrop-blur-sm">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/826e1c47-c372-45a8-98f3-e6a205af0d58.png" 
               alt="BV Innovation Logo" 
               className="h-12 w-auto"
             />
-            <span className="text-2xl font-bold text-white tracking-wide">BV INNOVATION</span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">

@@ -5,13 +5,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center">
               <img 
                 src="/lovable-uploads/826e1c47-c372-45a8-98f3-e6a205af0d58.png" 
                 alt="BV Innovation Logo" 
                 className="h-12 w-auto"
               />
-              <span className="text-2xl font-bold text-white tracking-wide">BV INNOVATION</span>
             </div>
             <p className="text-white/70">
               Redefining investment through visionary leadership and transformative innovation.
