@@ -38,10 +38,9 @@ const HeroSection = () => {
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 leading-tight">
-          Imagine tomorrow.
+          Strategic Capital. Foundational Assets.
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-12 leading-relaxed">
-          Redefining the landscape of investment through visionary leadership and transformative innovation.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
