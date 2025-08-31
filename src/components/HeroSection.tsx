@@ -44,7 +44,7 @@ const HeroSection = () => {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
-            href="#mission"
+            href="#about"
             className="px-8 py-4 bg-bv-blue hover:bg-bv-cyan text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-glow inline-block text-center"
           >
             Learn More
