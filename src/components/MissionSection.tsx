@@ -14,11 +14,7 @@ const MissionSection = () => {
           
           <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-elegant">
             <p className="text-lg md:text-xl text-white leading-relaxed mb-8">
-              Our mission is to allocate financial resources towards impactful companies while prioritizing founder and manager satisfaction.
-            </p>
-            
-            <p className="text-lg md:text-xl text-white leading-relaxed mb-8">
-              We strive to differentiate ourselves from other Venture Firms by employing a unique approach that emphasizes collaboration, transparency, and a people-first mentality in all of our investments. Our core values of integrity, innovation, and social responsibility guide us in our pursuit of excellence and our commitment to positively impacting the world.
+              Our mission is to mobilize capital, technology, and operational expertise to construct the critical infrastructure and financial instruments necessary for a more resilient and productive global economy.
             </p>
             
             <div className="inline-block bg-corporate-darker px-6 py-3 rounded-xl">
